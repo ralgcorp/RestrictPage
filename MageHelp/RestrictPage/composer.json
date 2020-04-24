@@ -1,0 +1,27 @@
+{
+  "name": "magehelp/magento2-restrictpage",
+  "description": "Restringir uma página específica aos clientes cadastrados",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Rodrigo Gabriel",
+      "email": "contato@rodrigogabriel.com.br",
+      "homepage": "http://www.rodrigogabriel.com.br",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "~5.6.0|7.0.2|7.0.4|~7.0.6"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "MageHelp\\RestrictPage\\": ""
+    }
+  }
+}
